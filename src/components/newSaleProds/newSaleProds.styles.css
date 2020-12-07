@@ -1,0 +1,95 @@
+.newSaleProd-Info
+{
+    display: flex;
+    margin-top: 4%;
+}
+
+.nsProd-name
+{
+    color: #5495FD;
+    font-size: 18px;
+    font-family:"HelveticaNeueCyr-Bold";
+    margin:20px 20px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.nsProd-logo
+{
+    margin: 20px 0px;
+    margin-left: 200px;
+    height: 30px;
+}
+
+.newSale-Prod-Info
+{
+    margin-left: 8%;
+    height: auto;
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+.newSaleProd-Category
+{
+    color: #5495FD;
+    font-family:"HelveticaNeueCyr-Medium";
+    font-size: 18px;
+}
+
+.nsProdsList
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.nsProdsHeader
+{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.newSale-prodName,.newSale-price,.newSale-qty,.newSale-total
+{
+    width: 20%;
+    color: #5F5F5F;
+    font-family:"HelveticaNeueCyr-Medium";
+    padding-right: 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+.newSale-prodName
+{
+    width: 40%;
+}
+
+.nsProdsContent,.nsProdsContentSelected
+{
+    width: 100%;
+    display: flex;
+    margin: 30px 0px;
+    height: auto;
+    align-items: center;
+}
+
+.nsProdsContentSelected,.ns-red-qty
+{
+    color: #FD546E;
+}
+.newSale-prodNameVal,.newSale-priceVal,.newSale-qtyVal,.newSale-totalVal
+{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    width: 20%;
+}
+
+.newSale-prodNameVal
+{
+    width: 40%;
+}
+.newSale-qtyVal
+{
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.cButton,.cButtonHeader,.cbtn
+{
+    background-color:#04B1C7;
+    font-family: "HelveticaNeueCyr-Medium";
+    letter-spacing: 0.2ch;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.cButtonHeader
+{
+    height: 50px;
+    width: 200px;
+}
+
+.cBtn-del
+{
+    background-color: #C30000;
+}
+
+.cButton:hover
+{
+    cursor: pointer;
+}
+
+.cButton:focus
+{
+    outline-style:groove;
+    outline-color: #04B1C7;
+}
+
+@media screen and (max-width:1000px){
+
+    .cButton{
+        font-size: 10px;
+    }
+ }
+
+ .cbtn
+ {
+    background-color: #A5A8A8;
+ }

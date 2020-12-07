@@ -1,0 +1,95 @@
+.Content
+{
+    height: 90%;
+    background-color: #F4F4F8;
+}
+
+.subSection
+{
+    background-color:#FFFFFF; 
+    height: 95%;
+    margin: 0% 3%;
+    overflow-x: scroll;
+}
+
+.subSectionHalf
+{
+    background-color:#FFFFFF; 
+    height: 85%;
+    margin: 0% 20%;
+}
+
+
+.subSectionQuarter
+{
+    background-color:#FFFFFF; 
+    height: 30%;
+    margin: 0% 25%;
+}
+
+
+.titles,.manageProd-titles,.voucherstTitle,.vbTitles,.ResTitle,.salesTitles,.walletTitles
+{
+    display: flex;
+    font-family: "HelveticaNeueCyr-Bold";
+}
+
+.walletTitles
+{
+    margin-top: 10px;
+    width: 1200px;
+}
+
+.vbTitles
+{
+    width: 2000px;
+}
+
+.ResTitle
+{
+    width:  2000px;
+}
+
+.salesTitles
+{
+    width: auto;
+}
+
+.dynamic-title
+{
+    display: flex;
+    justify-content: center;
+}
+
+.manageProds
+{
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 60%;
+}
+
+.subSectionQuarter-content
+{
+    height: 100%;
+}
+
+
+@media screen and (max-width:1430px){
+
+   .subSection
+    {
+        width:max-width;
+        overflow-x: scroll;
+    }
+    .titles
+    {
+        width: 1200px;
+    }
+
+   .subSection-Content
+   {
+        width:1200px;
+        overflow-x: scroll;
+   }
+  
+}

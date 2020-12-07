@@ -1,0 +1,113 @@
+.addClientPage
+{
+    height: 90%;
+    background-color: #F4F4F8;
+}
+
+.addClient-subText
+{
+    display: flex;
+    justify-content: center;
+    height: 3%;
+    font-size: 1.6em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
+}
+
+.client-container
+{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+.addclient-container
+{
+    height: 80%;
+}
+
+.sub-left
+{
+    background-color:#FFFFFF; 
+    height: 95%;
+    width: 45%;
+    overflow: scroll;
+}
+
+.addClient-subLeft
+{
+    width: 60%;
+    height:100%;
+}
+
+.sub-right
+{
+    background-color:#FFFFFF; 
+    height: 95%;
+    margin-left: 2%;
+    width: 45%;
+    overflow: scroll;
+}
+.info-client,.vat-client,.email-client,.username-client,.pass-client
+{
+    display: flex;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.info-client-name,.vat-num,.pw-email,.client-username1,.client-pass
+{
+    width:30%;
+}
+
+
+.vat,.clientName,.user-inp,.email-pw,.client-user-inp,.client-pass-inp
+{
+    margin-top: 12px;
+    height: 22px;
+    border: 1px solid #EAEAEA;
+}
+
+.permission
+{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    max-height: 35%;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.perm-row
+{
+    display: flex;
+    margin: 15px 0px;
+    width: 45%;
+}
+
+.checkOption
+{
+    margin-left: 10px;
+    width: 270px;
+    overflow: scroll;
+
+}
+
+.perm
+{
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    width: 100%;
+}
+
+.createClientBtn
+{
+    height: 7%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}

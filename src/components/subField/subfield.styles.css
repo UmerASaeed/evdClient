@@ -1,0 +1,13 @@
+.subfield
+{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:#00000022;
+    border-color: #00000022;
+    color: white;
+    width: 80px;
+    justify-content: center;
+}

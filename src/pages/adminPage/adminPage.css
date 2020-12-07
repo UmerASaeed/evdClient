@@ -1,0 +1,33 @@
+.admin
+{
+    display: flex;
+}
+
+.leftSide{
+    height: 100%;
+    width: 23%;
+    
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    height: 100vh;
+    
+}
+.head
+{
+    height: 10%;
+}
+
+.filler
+{
+    height: 90%;
+    color:#5495FD ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    letter-spacing: 4px;
+}

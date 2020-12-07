@@ -1,0 +1,4 @@
+export const walletActionTypes = {
+    SET_WALLET_HISTORY:"SET_WALLET_HISTORY",
+    SET_PAYMENT_HISTORY:"SET_PAYMENT_HISTORY"
+}

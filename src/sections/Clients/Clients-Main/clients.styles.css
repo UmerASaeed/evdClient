@@ -1,0 +1,45 @@
+.client-content
+{
+    height: 90%;
+    background-color: #F4F4F8;
+}
+  
+.subHeader
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subText
+{
+    margin-left: 30px;
+    color: #5495FD;
+    font-family: "HelveticaNeueCyr-Light";
+}
+
+.options
+{
+    display: flex;  
+    width:60% ;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3%;
+}
+
+
+.searchBar
+{
+    height: 35px;
+    width: 190px;
+    border: none;
+    margin-right: 3%;
+}
+
+.searchBar:focus
+{
+    border: none;
+}
+
+@media screen and (max-width:1440px){
+    
+}

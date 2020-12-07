@@ -1,0 +1,68 @@
+.salesPopUp
+{
+    width: 50vw;
+    height: 367px;
+    border: 1px solid #707070;
+}
+
+.salesPopUp-header
+{
+    width: 100%;
+    height: 15%;
+    background-color: #04B1C7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.salesPopUp-headerName
+{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr-Bold";
+    margin-left: 15px;
+}
+
+.salesPopUp-content
+{
+    height: 85%;
+    background-color: #F4F4F8;
+}
+
+.salesPopUp-clientInfo
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.salesPopUp-clientContent
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.salesPopUp-clientHeader-names
+{
+    display: flex;
+    font-family:"HelveticaNeueCyr-Bold";
+    width: 1000px;
+}
+
+.salesPopUp-clientDetails
+{
+    display: flex;
+    width: 1000px;
+    margin: 20px 0px;
+}
+
+.sPopUp-cH-width
+{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}

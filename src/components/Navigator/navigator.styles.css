@@ -1,0 +1,104 @@
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+  } 
+
+.navigator
+{   
+    width:100%;
+    height: 100vh;
+    background-color:#04B1C7 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'HelveticaNeueCyr-UltraLight';
+    
+}
+
+.sections:hover
+{
+    cursor: pointer;
+}
+
+.evdLink
+{
+    text-decoration: none;
+}
+.evd
+{
+    font: 100 55px/85px 'HelveticaNeueCyr-UltraLight';
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.subf
+{
+    display: flex;
+    margin-top: -60px;
+    margin-left: -10px;
+}
+
+.sections
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
+}
+
+@media screen and (max-width:1440px){
+    
+    .evd{
+        font-size: 50px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center
+    }
+    .subf
+    {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+  
+ }
+
+ @media screen and (max-width:989px){
+    
+    .evd{
+        font-size: 40px;
+    }
+  
+  
+ }
+
+ @media screen and (max-width:740px){
+    
+    .evd{
+        font-size: 30px;
+    }
+  
+ }
+
+ @media screen and (max-width:510px){
+    
+    .evd{
+        font-size: 20px;
+    }
+  
+ }
